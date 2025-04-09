@@ -9,3 +9,60 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#trafficTop{
+    background-color: black;
+    width:30px;
+    height:150px;
+    margin-top:20px
+}
+
+#container{
+    background-color: black;
+    width:250px;
+    height: 700px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+#trafficLight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.red_light{
+    background-color: red;
+    width:200px;
+    height:200px;
+    border-radius: 100px;
+}
+
+.yellow_light{
+    background-color: yellow;
+    width:200px;
+    height:200px;
+    border-radius: 100px;
+}
+
+.green_light{
+    background-color: green;
+    width:200px;
+    height:200px;
+    border-radius: 100px;
+    
+}
+
+.purple_light{
+    background-color: purple;
+    width:200px;
+    height:200px;
+    border-radius: 100px;
+}
+
+.selected{
+    box-shadow: 0px 0px 100px yellow;
+}
